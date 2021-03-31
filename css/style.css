@@ -300,7 +300,12 @@ body {
       top: 10rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p3 {
-          top: -12px;
+          top: -1px;
+          left: 0;
+          transform: scale(1.2); } }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p3 {
+          top: -1px;
           left: 0;
           transform: scale(1.2); } }
     .composition__photo:hover {
@@ -922,12 +927,12 @@ body {
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (max-width: 56.25em) {
     .navigation__background {
-      top: 4.5rem;
-      right: 4.5rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .navigation__background {
       top: 3.5rem;
       right: 3.5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .navigation__background {
+      top: 3rem;
+      right: 3rem; } }
 
 .navigation__nav {
   height: 100vh;
